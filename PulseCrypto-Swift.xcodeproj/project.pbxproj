@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		180A9F273097DC31006CF4E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180A9F083097DC30006CF4E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180A9F0F3097DC30006CF4E8;
+			remoteInfo = "PulseCrypto-Swift";
+		};
+		180A9F313097DC31006CF4E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180A9F083097DC30006CF4E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180A9F0F3097DC30006CF4E8;
+			remoteInfo = "PulseCrypto-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180A9F103097DC30006CF4E8 /* PulseCrypto-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PulseCrypto-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180A9F263097DC31006CF4E8 /* PulseCrypto-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PulseCrypto-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180A9F303097DC31006CF4E8 /* PulseCrypto-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PulseCrypto-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		180A9F363097DC31006CF4E8 /* Exceptions for "PulseCrypto-Swift" folder in "PulseCrypto-Swift" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 180A9F0F3097DC30006CF4E8 /* PulseCrypto-Swift */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		180A9F123097DC30006CF4E8 /* PulseCrypto-Swift */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				180A9F363097DC31006CF4E8 /* Exceptions for "PulseCrypto-Swift" folder in "PulseCrypto-Swift" target */,
+			);
+			path = "PulseCrypto-Swift";
+			sourceTree = "<group>";
+		};
+		180A9F293097DC31006CF4E8 /* PulseCrypto-SwiftTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PulseCrypto-SwiftTests";
+			sourceTree = "<group>";
+		};
+		180A9F333097DC31006CF4E8 /* PulseCrypto-SwiftUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PulseCrypto-SwiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180A9F0D3097DC30006CF4E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		180A9F233097DC31006CF4E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		180A9F2D3097DC31006CF4E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180A9F073097DC30006CF4E8 = {
+			isa = PBXGroup;
+			children = (
+				180A9F123097DC30006CF4E8 /* PulseCrypto-Swift */,
+				180A9F293097DC31006CF4E8 /* PulseCrypto-SwiftTests */,
+				180A9F333097DC31006CF4E8 /* PulseCrypto-SwiftUITests */,
+				180A9F113097DC30006CF4E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180A9F113097DC30006CF4E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180A9F103097DC30006CF4E8 /* PulseCrypto-Swift.app */,
+				180A9F263097DC31006CF4E8 /* PulseCrypto-SwiftTests.xctest */,
+				180A9F303097DC31006CF4E8 /* PulseCrypto-SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180A9F0F3097DC30006CF4E8 /* PulseCrypto-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180A9F373097DC31006CF4E8 /* Build configuration list for PBXNativeTarget "PulseCrypto-Swift" */;
+			buildPhases = (
+				180A9F0C3097DC30006CF4E8 /* Sources */,
+				180A9F0D3097DC30006CF4E8 /* Frameworks */,
+				180A9F0E3097DC30006CF4E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				180A9F123097DC30006CF4E8 /* PulseCrypto-Swift */,
+			);
+			name = "PulseCrypto-Swift";
+			productName = "PulseCrypto-Swift";
+			productReference = 180A9F103097DC30006CF4E8 /* PulseCrypto-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		180A9F253097DC31006CF4E8 /* PulseCrypto-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180A9F3C3097DC31006CF4E8 /* Build configuration list for PBXNativeTarget "PulseCrypto-SwiftTests" */;
+			buildPhases = (
+				180A9F223097DC31006CF4E8 /* Sources */,
+				180A9F233097DC31006CF4E8 /* Frameworks */,
+				180A9F243097DC31006CF4E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180A9F283097DC31006CF4E8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				180A9F293097DC31006CF4E8 /* PulseCrypto-SwiftTests */,
+			);
+			name = "PulseCrypto-SwiftTests";
+			productName = "PulseCrypto-SwiftTests";
+			productReference = 180A9F263097DC31006CF4E8 /* PulseCrypto-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		180A9F2F3097DC31006CF4E8 /* PulseCrypto-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180A9F3F3097DC31006CF4E8 /* Build configuration list for PBXNativeTarget "PulseCrypto-SwiftUITests" */;
+			buildPhases = (
+				180A9F2C3097DC31006CF4E8 /* Sources */,
+				180A9F2D3097DC31006CF4E8 /* Frameworks */,
+				180A9F2E3097DC31006CF4E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180A9F323097DC31006CF4E8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				180A9F333097DC31006CF4E8 /* PulseCrypto-SwiftUITests */,
+			);
+			name = "PulseCrypto-SwiftUITests";
+			productName = "PulseCrypto-SwiftUITests";
+			productReference = 180A9F303097DC31006CF4E8 /* PulseCrypto-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180A9F083097DC30006CF4E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					180A9F0F3097DC30006CF4E8 = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					180A9F253097DC31006CF4E8 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 180A9F0F3097DC30006CF4E8;
+					};
+					180A9F2F3097DC31006CF4E8 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 180A9F0F3097DC30006CF4E8;
+					};
+				};
+			};
+			buildConfigurationList = 180A9F0B3097DC30006CF4E8 /* Build configuration list for PBXProject "PulseCrypto-Swift" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180A9F073097DC30006CF4E8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 180A9F113097DC30006CF4E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180A9F0F3097DC30006CF4E8 /* PulseCrypto-Swift */,
+				180A9F253097DC31006CF4E8 /* PulseCrypto-SwiftTests */,
+				180A9F2F3097DC31006CF4E8 /* PulseCrypto-SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180A9F0E3097DC30006CF4E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		180A9F243097DC31006CF4E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		180A9F2E3097DC31006CF4E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180A9F0C3097DC30006CF4E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		180A9F223097DC31006CF4E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		180A9F2C3097DC31006CF4E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		180A9F283097DC31006CF4E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180A9F0F3097DC30006CF4E8 /* PulseCrypto-Swift */;
+			targetProxy = 180A9F273097DC31006CF4E8 /* PBXContainerItemProxy */;
+		};
+		180A9F323097DC31006CF4E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180A9F0F3097DC30006CF4E8 /* PulseCrypto-Swift */;
+			targetProxy = 180A9F313097DC31006CF4E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		180A9F383097DC31006CF4E8 /* Debug configuration for PBXNativeTarget "PulseCrypto-Swift" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WP68QNQS7S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PulseCrypto-Swift/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ramesh.PulseCrypto-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		180A9F393097DC31006CF4E8 /* Release configuration for PBXNativeTarget "PulseCrypto-Swift" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WP68QNQS7S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PulseCrypto-Swift/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ramesh.PulseCrypto-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		180A9F3A3097DC31006CF4E8 /* Debug configuration for PBXProject "PulseCrypto-Swift" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = WP68QNQS7S;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		180A9F3B3097DC31006CF4E8 /* Release configuration for PBXProject "PulseCrypto-Swift" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = WP68QNQS7S;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180A9F3D3097DC31006CF4E8 /* Debug configuration for PBXNativeTarget "PulseCrypto-SwiftTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WP68QNQS7S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ramesh.PulseCrypto-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulseCrypto-Swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PulseCrypto-Swift";
+			};
+			name = Debug;
+		};
+		180A9F3E3097DC31006CF4E8 /* Release configuration for PBXNativeTarget "PulseCrypto-SwiftTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WP68QNQS7S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ramesh.PulseCrypto-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulseCrypto-Swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PulseCrypto-Swift";
+			};
+			name = Release;
+		};
+		180A9F403097DC31006CF4E8 /* Debug configuration for PBXNativeTarget "PulseCrypto-SwiftUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WP68QNQS7S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ramesh.PulseCrypto-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PulseCrypto-Swift";
+			};
+			name = Debug;
+		};
+		180A9F413097DC31006CF4E8 /* Release configuration for PBXNativeTarget "PulseCrypto-SwiftUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WP68QNQS7S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ramesh.PulseCrypto-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PulseCrypto-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180A9F0B3097DC30006CF4E8 /* Build configuration list for PBXProject "PulseCrypto-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180A9F3A3097DC31006CF4E8 /* Debug configuration for PBXProject "PulseCrypto-Swift" */,
+				180A9F3B3097DC31006CF4E8 /* Release configuration for PBXProject "PulseCrypto-Swift" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		180A9F373097DC31006CF4E8 /* Build configuration list for PBXNativeTarget "PulseCrypto-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180A9F383097DC31006CF4E8 /* Debug configuration for PBXNativeTarget "PulseCrypto-Swift" */,
+				180A9F393097DC31006CF4E8 /* Release configuration for PBXNativeTarget "PulseCrypto-Swift" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		180A9F3C3097DC31006CF4E8 /* Build configuration list for PBXNativeTarget "PulseCrypto-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180A9F3D3097DC31006CF4E8 /* Debug configuration for PBXNativeTarget "PulseCrypto-SwiftTests" */,
+				180A9F3E3097DC31006CF4E8 /* Release configuration for PBXNativeTarget "PulseCrypto-SwiftTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		180A9F3F3097DC31006CF4E8 /* Build configuration list for PBXNativeTarget "PulseCrypto-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180A9F403097DC31006CF4E8 /* Debug configuration for PBXNativeTarget "PulseCrypto-SwiftUITests" */,
+				180A9F413097DC31006CF4E8 /* Release configuration for PBXNativeTarget "PulseCrypto-SwiftUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180A9F083097DC30006CF4E8 /* Project object */;
+	validationLevel = 1;
+}
