@@ -1,19 +1,17 @@
 //
-//  ViewController.swift
+//  DashboardViewController.swift
 //  PulseCrypto-Swift
 //
 //  Created by Ramesh on 02/11/26.
 //
 
+import Foundation
 import UIKit
 
-class ViewController: UIViewController {
-
+class DashboardViewController: UIViewController {
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
-
