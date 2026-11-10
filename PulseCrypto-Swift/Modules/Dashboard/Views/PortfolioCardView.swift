@@ -151,8 +151,8 @@ final class PortfolioCardView: UIView {
         NSLayoutConstraint.activate([
             trendLabel.topAnchor.constraint(equalTo: trendBadge.topAnchor, constant: 4),
             trendLabel.bottomAnchor.constraint(equalTo: trendBadge.bottomAnchor, constant: -4),
-            trendLabel.leadingAnchor.constraint(equalTo: trendBadge.leadingAnchor, constant: 10),
-            trendLabel.trailingAnchor.constraint(equalTo: trendBadge.trailingAnchor, constant: -10)
+            trendLabel.leadingAnchor.constraint(equalTo: trendBadge.leadingAnchor),
+            trendLabel.trailingAnchor.constraint(equalTo: trendBadge.trailingAnchor)
         ])
         
         let sendButton = createActionButton(title: "Send", systemIcon: "arrow.up.right", action: #selector(handleSend))

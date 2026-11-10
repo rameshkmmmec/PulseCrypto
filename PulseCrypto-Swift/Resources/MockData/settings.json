@@ -1,0 +1,67 @@
+{
+  "screen_title": "Settings",
+  "app_version": "v3.4.1",
+  "profile": {
+    "name": "PulseCrypto",
+    "tier": "Pro",
+    "avatar_image": "avatar_profile"
+  },
+  "sections": [
+    {
+      "items": [
+        {
+          "id": "security",
+          "title": "Security & Biometrics",
+          "subtitle": "FaceID/passcode",
+          "icon": "shield",
+          "type": "toggle",
+          "is_enabled": true
+        },
+        {
+          "id": "preferences",
+          "title": "Preferences",
+          "subtitle": "(Currency, Language)",
+          "icon": "slider.horizontal.3",
+          "type": "navigation",
+          "is_enabled": false
+        },
+        {
+          "id": "linked_accounts",
+          "title": "Linked Accounts & Banks",
+          "subtitle": null,
+          "icon": "link",
+          "type": "navigation",
+          "is_enabled": false
+        },
+        {
+          "id": "connected_wallets",
+          "title": "Connected Wallets",
+          "subtitle": null,
+          "icon": "wallet.pass",
+          "type": "navigation",
+          "is_enabled": false
+        },
+        {
+          "id": "help_support",
+          "title": "Help & Support",
+          "subtitle": null,
+          "icon": "questionmark.circle",
+          "type": "navigation",
+          "is_enabled": false
+        },
+        {
+          "id": "notifications",
+          "title": "Notification Settings",
+          "subtitle": null,
+          "icon": "bell",
+          "type": "navigation",
+          "is_enabled": false
+        }
+      ]
+    }
+  ],
+  "logout_action": {
+    "title": "Standard logout",
+    "icon": "rectangle.portrait.and.arrow.right"
+  }
+}

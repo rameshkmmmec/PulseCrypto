@@ -27,18 +27,7 @@ final class DashboardHeaderView: UIView {
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
-    
-    
-//    private let titleLabel: UILabel = {
-//        let label = UILabel()
-//        label.text = "PulseCypto"
-//        label.textColor = .white
-//        label.font = UIFont.systemFont(ofSize: 20, weight: .bold)
-//        label.textAlignment = .center
-//        label.translatesAutoresizingMaskIntoConstraints = false
-//        return label
-//    }()
-    
+
     private let titleLabel: UILabel = {
             let label = UILabel()
             label.textAlignment = .center
@@ -106,7 +95,7 @@ final class DashboardHeaderView: UIView {
         NSLayoutConstraint.activate([
                 
             // 1. Profile button
-            profileButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16),
+            profileButton.leadingAnchor.constraint(equalTo: leadingAnchor),
             profileButton.centerYAnchor.constraint(equalTo: centerYAnchor),
             profileButton.widthAnchor.constraint(equalToConstant: 40),
             profileButton.heightAnchor.constraint(equalToConstant: 40),
@@ -116,7 +105,7 @@ final class DashboardHeaderView: UIView {
             titleLabel.centerYAnchor.constraint(equalTo: centerYAnchor),
         
             // 3. Search button
-            searchButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16),
+            searchButton.trailingAnchor.constraint(equalTo: trailingAnchor),
             searchButton.centerYAnchor.constraint(equalTo: centerYAnchor),
             searchButton.widthAnchor.constraint(equalToConstant: 40),
             searchButton.heightAnchor.constraint(equalToConstant: 40)
