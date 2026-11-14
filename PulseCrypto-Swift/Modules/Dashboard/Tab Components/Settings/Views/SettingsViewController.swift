@@ -56,6 +56,25 @@ class SettingsViewController: UIViewController {
         
         userCardView.configure(name: settingData.profile.name, detail: settingData.profile.tier, imageName: settingData.profile.avatarImage)
         settingsView.configure(with: settingData)
+        
+        settingsView.onLogoutTapped = { [weak self] in
+            self?.showLogoutAlert()
+        }
     }
 
+    private func showLogoutAlert() {
+        let alert = UIAlertController(
+            title: "Logout",
+            message: "Are you sure you want to logout?",
+            preferredStyle: .alert
+        )
+        alert.addAction(UIAlertAction(title: "No", style: .cancel))
+        alert.addAction(UIAlertAction(title: "Yes", style: .destructive) { [weak self] _ in
+            self?.settingsView.performLogout()
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                self?.showToast(message: "Logout successful.")
+            }
+        })
+        present(alert, animated: true)
+    }
 }

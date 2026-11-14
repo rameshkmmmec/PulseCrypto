@@ -13,6 +13,8 @@ final class SettingsOptionsView: UIView, UITableViewDelegate, UITableViewDataSou
     private var settings: [SettingItem] = []
     private var logoutView = SettingsLogoutView(frame: CGRect(x: 0, y: 0, width: 0, height: 80))
     
+    var onLogoutTapped: (() -> Void)?
+    
     private let containerView: UIView = {
        let view = UIView()
         view.backgroundColor = .clear
@@ -20,8 +22,8 @@ final class SettingsOptionsView: UIView, UITableViewDelegate, UITableViewDataSou
         return view
     }()
     
-    private let tableView: IntrinsicTableView = {
-        let tableVw = IntrinsicTableView()
+    private let tableView: UITableView = {
+        let tableVw = UITableView()
         tableVw.isScrollEnabled = false
         tableVw.backgroundColor = .clear
         tableVw.separatorStyle = .none
@@ -45,11 +47,7 @@ final class SettingsOptionsView: UIView, UITableViewDelegate, UITableViewDataSou
         
         tableView.delegate = self
         tableView.dataSource = self
-        
-        logoutView.translatesAutoresizingMaskIntoConstraints = true
-        logoutView.autoresizingMask = [.flexibleWidth]
-        tableView.tableFooterView = logoutView
-        
+        setUpLogout()
         addSubview(tableView)
         
         NSLayoutConstraint.activate([
@@ -70,9 +68,28 @@ final class SettingsOptionsView: UIView, UITableViewDelegate, UITableViewDataSou
         self.tableView.invalidateIntrinsicContentSize()
     }
     
-    func setUpLogoutData(data: LogoutAction){
+    func setUpLogout(){
         
+        // Tap Gesture Setup
+        logoutView.isUserInteractionEnabled = true
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(didTapLogoutFooter))
+        logoutView.addGestureRecognizer(tapGesture)
         
+        logoutView.translatesAutoresizingMaskIntoConstraints = true
+        logoutView.autoresizingMask = [.flexibleWidth]
+        tableView.tableFooterView = logoutView
+    }
+    
+    @objc func didTapLogoutFooter(){
+        onLogoutTapped?()
+    }
+    
+    func performLogout() {
+        UIView.animate(withDuration: 0.25) {
+            self.tableView.tableFooterView = nil
+            self.tableView.beginUpdates()
+            self.tableView.endUpdates()
+        }
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
