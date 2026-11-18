@@ -11,8 +11,7 @@ import UIKit
 
 extension UIColor {
     
-    
-    
-    
+    static let whitishGrey = UIColor(hex: "#A5BDC0")
+    static let seafoamGreen = UIColor(hex: "#7BB8A0")
     
 }

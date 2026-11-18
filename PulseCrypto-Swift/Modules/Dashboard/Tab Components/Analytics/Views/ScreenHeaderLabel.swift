@@ -10,9 +10,10 @@ import UIKit
 
 final class ScreenHeaderLabel: UILabel {
     
-    init(title: String = "") {
+    init(title: String = "", font: CGFloat = 24) {
         super.init(frame: .zero)
         self.text = title
+        self.font = UIFont.appFont(size: font, weight: .semiBold)
         setupStyle()
     }
     
@@ -22,7 +23,7 @@ final class ScreenHeaderLabel: UILabel {
     }
     
     private func setupStyle() {
-        self.font = .systemFont(ofSize: 20, weight: .semibold)
+        //self.font = UIFont.appFont(size: 24, weight: .semiBold)
         self.textColor = .white
         self.textAlignment = .center
         self.translatesAutoresizingMaskIntoConstraints = false

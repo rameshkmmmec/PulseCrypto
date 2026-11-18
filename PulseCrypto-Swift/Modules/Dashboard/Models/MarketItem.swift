@@ -31,6 +31,7 @@ struct MarketItem: Codable, Identifiable {
     let volume_24h: String
     let sparkline_points: [CGFloat]
     let gradientFillHex: [String]?
+    //let isSelected: Bool
 
     var gradientFillColors: [CGColor] {
         guard let colors = gradientFillHex, !colors.isEmpty else {
