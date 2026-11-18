@@ -48,7 +48,7 @@ final class CoinPickerBottomSheetVc: UIViewController, UITableViewDelegate, UITa
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = UIColor(red: 14/255, green: 21/255, blue: 37/255, alpha: 1.0)
+        view.backgroundColor = UIColor(red: 38/255, green: 62/255, blue: 74/255, alpha: 1.0)
         
         titleLabel.text = sheetTitle
         tableView.dataSource = self

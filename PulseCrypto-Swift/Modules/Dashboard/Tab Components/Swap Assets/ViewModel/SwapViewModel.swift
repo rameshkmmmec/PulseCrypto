@@ -50,26 +50,26 @@ final class SwapViewModel: ObservableObject {
         toCoin = temp
     }
     
-//    // MARK: - Computed Swap Values
-//    var fromQuantity: Double {
-//        guard fromCoin?.price ?? 0 > 0 else { return 0 }
-//        return usdAmount / (fromCoin?.price ?? 0)
-//    }
-//    
-//    var toQuantity: Double {
-//        guard toCoin?.price ?? 0 > 0 else { return 0 }
-//        return usdAmount / (toCoin?.price ?? 0)
-//    }
+    // MARK: - Computed Swap Values
+    var fromQuantity: Double {
+        guard fromCoin?.price ?? 0 > 0 else { return 0 }
+        return usdAmount / (fromCoin?.price ?? 0)
+    }
+    
+    var toQuantity: Double {
+        guard toCoin?.price ?? 0 > 0 else { return 0 }
+        return usdAmount / (toCoin?.price ?? 0)
+    }
 //    
 //    var conversionRate: Double {
 //        guard toCoin?.price ?? 0 > 0 else { return 0 }
 //        return fromCoin?.price ?? 0 / (toCoin?.price ?? 0)
 //    }
 //    
-//    var fromAvailableInUSD: Double {
-//        return 9.08
-//        //return fromCoin. * fromCoin.price
-//    }
+    var availableInUSD: Double {
+        return 9.08
+        //return fromCoin. * fromCoin.price
+    }
 //    
 //    // MARK: - Formatted Strings for UI
 //    var formattedUSDAmount: String {

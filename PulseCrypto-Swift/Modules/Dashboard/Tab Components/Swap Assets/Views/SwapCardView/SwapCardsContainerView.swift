@@ -167,9 +167,9 @@ final class SwapCardItemView: NeonGlowCardView {
     
     func setCoinTitle(name: String, symbol: String) {
         
-        let attributed = NSMutableAttributedString(string: "\(symbol) ", attributes: [.font: UIFont.appFont(size: 19, weight: .bold), .foregroundColor: UIColor.white])
+        let attributed = NSMutableAttributedString(string: "\(symbol) ", attributes: [.font: UIFont.appFont(size: 18, weight: .bold), .foregroundColor: UIColor.white])
         
-        attributed.append(NSAttributedString(string: "(\(name)", attributes: [.font: UIFont.appFont(size: 18, weight: .semiBold), .foregroundColor: UIColor.white.withAlphaComponent(0.90)]))
+        attributed.append(NSAttributedString(string: "(\(name))", attributes: [.font: UIFont.appFont(size: 18, weight: .regular), .foregroundColor: UIColor.init(red: 175/255, green: 186/255, blue: 196/255, alpha: 1)]))
         
         coinLabel.attributedText = attributed
     }

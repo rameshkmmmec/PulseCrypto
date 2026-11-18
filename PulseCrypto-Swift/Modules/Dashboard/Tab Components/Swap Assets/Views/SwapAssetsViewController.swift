@@ -147,18 +147,23 @@ extension SwapAssetsViewController {
     private func refreshSwapUI() {
         
         if let fromCoin = viewModel.fromCoin {
+
             let fromCard = swapCardView.fromCardView
+            fromCard.titleLabel.text = "From"
             fromCard.coinImg.image = UIImage(systemName: fromCoin.system_icon)
             fromCard.coinImg.tintColor = UIColor(hex: fromCoin.icon_tint_color)
             fromCard.setCoinTitle(name: fromCoin.name, symbol: fromCoin.symbol)
             fromCard.amountLabel.text = String(format: "%@%.2f", fromCoin.currency_symbol, fromCoin.price)
             fromCard.bottomLeftLabel.text = "Available Balance"
-//          fromCard.rateLabel.text = String(format: "(%.4g %@)", fromQty, fromCoin.symbol)
-//          fromCard.bottomRightLabel.text = String(format: "$%.0f %@", availableInUSD, fromCoin.symbol)
+            
+            fromCard.rateLabel.text = String(format: "(%.4g %@)", viewModel.fromQuantity, fromCoin.symbol)
+            fromCard.bottomRightLabel.text = String(format: "$%.0f %@", viewModel.availableInUSD, fromCoin.symbol)
         }
         
         if let toCoin = viewModel.toCoin {
+            
             let toCard = swapCardView.toCardView
+            toCard.titleLabel.text = "To"
             toCard.coinImg.image = UIImage(systemName: toCoin.system_icon)
             toCard.coinImg.tintColor = UIColor(hex: toCoin.icon_tint_color)
             toCard.setCoinTitle(name: toCoin.name, symbol: toCoin.symbol)
@@ -167,9 +172,11 @@ extension SwapAssetsViewController {
                 toCard.bottomLeftLabel.text = String(format: "1\(fromCoin.symbol) = %.2f%@", fromCoin.change_percentage*toCoin.price, toCoin.symbol)
             }
             toCard.bottomRightLabel.textColor = UIColor(red: 155/255, green: 168/255, blue: 185/255, alpha: 1.0)
-//            fromCard.rateLabel.text = String(format: "(%.4g %@)", fromQty, fromCoin.symbol)
-//            fromCard.bottomLeftLabel.text = "Available Balance"
-//            fromCard.bottomRightLabel.text = String(format: "$%.0f %@", availableInUSD, fromCoin.symbol)
+            
+            toCard.rateLabel.text = String(format: "(%.4g %@)", viewModel.toQuantity, toCoin.symbol)
+            toCard.bottomLeftLabel.text = "Available Balance"
+            toCard.bottomRightLabel.text = String(format: "$%.0f %@", viewModel.availableInUSD, toCoin.symbol)
+            
             toCard.extraLeftLabel.text = "Slippage"
             toCard.extraRightLabel.text = "0.1%"
         }
